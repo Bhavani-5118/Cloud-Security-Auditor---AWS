@@ -200,3 +200,25 @@ The project can be enhanced by integrating:
 - Real-time alerts and notifications
 - Role-based access control for multiple users
 
+CODE SCREENSHOTS:
+<img width="677" height="336" alt="Screenshot 2026-07-15 225824" src="https://github.com/user-attachments/assets/8c6df06b-3a62-4b07-8ba4-d69ee49da2df" />
+
+OUTPUT SCREENSHOTS:
+<img width="796" height="677" alt="Screenshot 2026-07-15 224631" src="https://github.com/user-attachments/assets/8fb92b94-7a09-4021-acc3-338f5bcd888a" />
+
+<img width="1917" height="903" alt="Screenshot 2026-07-15 224833" src="https://github.com/user-attachments/assets/526ca3d2-b095-48d5-a482-95a8e488a85a" />
+
+<img width="1877" height="452" alt="Screenshot 2026-07-15 224859" src="https://github.com/user-attachments/assets/6390b2d0-da3f-431b-9fb9-22ad4a3f6114" />
+
+<img width="1892" height="863" alt="Screenshot 2026-07-15 224918" src="https://github.com/user-attachments/assets/ca34b856-5bb6-480f-8101-efd471e582ea" />
+
+<img width="1900" height="747" alt="Screenshot 2026-07-15 224953" src="https://github.com/user-attachments/assets/123a2816-01cd-4b26-b287-2402860ea0ff" />
+
+<img width="1292" height="786" alt="Screenshot 2026-07-15 225031" src="https://github.com/user-attachments/assets/6eb0c432-7af0-41e5-b47b-ca03fd6d39d8" />
+
+
+
+
+
+
+
