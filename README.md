@@ -252,14 +252,3 @@ All displayed data is static and intended for demonstration purposes.
 
 This project is licensed under the **MIT License**.
 
----
-
-## ⭐ Author
-
-**Bhavani Yadlapalli**
-
-B.Tech – Computer Science and Engineering
-
-Cloud Security Auditor for AWS (Frontend)
-
-Internship Project – 2026
