@@ -1,46 +1,59 @@
-# ☁️ Cloud Security Auditor for AWS 
+# ☁️ Cloud Security Auditor for AWS
 
-## 📌 Project Overview
+> A frontend-based AWS Cloud Security Dashboard built using HTML, CSS, Bootstrap, JavaScript, and Chart.js.
 
-Cloud Security Auditor for AWS is a frontend-based web application designed to demonstrate a cloud security monitoring dashboard. It provides an intuitive interface to visualize AWS security findings, security scores, reports, and AWS configuration settings.
+---
 
-This project is developed as an internship project using only HTML, CSS, Bootstrap, JavaScript, and Chart.js.
+## 📖 Project Overview
+
+Cloud Security Auditor for AWS is a frontend-based web application that demonstrates a modern cloud security monitoring dashboard. It provides an interactive interface to visualize AWS security findings, security scores, reports, and AWS configuration settings.
+
+This project was developed as part of an internship using frontend technologies only.
+
+---
 
 ## 🎯 Objectives
 
-- Design a professional AWS Security Dashboard.
-- Display security findings in an organized way.
-- Visualize security statistics using charts.
-- Provide report generation interface.
-- Create a responsive and user-friendly UI.
+- Design a professional AWS Security Dashboard
+- Display cloud security findings
+- Visualize security statistics using charts
+- Build a responsive and user-friendly interface
+- Demonstrate cloud security concepts
 
+---
 
 ## 🚀 Features
 
 - 🔐 Login Page
-- 📊 Security Dashboard
+- 📊 Dashboard
 - ⚠️ Security Findings
-- 📄 Reports Page
-- ⚙️ AWS Settings Page
-- 📈 Charts using Chart.js
+- 📄 Reports
+- ⚙️ AWS Settings
+- 📈 Interactive Charts
 - 📱 Responsive Design
-- 🎨 AWS-inspired UI
+- 🎨 AWS Inspired UI
 
+---
 
 ## 🛠️ Technologies Used
 
-- HTML5
-- CSS3
-- Bootstrap 5
-- JavaScript
-- Chart.js
+| Technology | Purpose |
+|------------|---------|
+| HTML5 | Structure |
+| CSS3 | Styling |
+| Bootstrap 5 | Responsive UI |
+| JavaScript | Interactivity |
+| Chart.js | Charts |
 
+---
 
 ## 📁 Project Structure
 
 ```text
 cloud-security-auditor-frontend/
 │
+├── README.md
+├── LICENSE
 ├── index.html
 ├── dashboard.html
 ├── findings.html
@@ -55,79 +68,21 @@ cloud-security-auditor-frontend/
 │   └── charts.js
 │
 └── images/
+```
 
+---
 
-## 📷 Project Pages
+## 📄 Project Pages
 
-### 1. Login Page
+### 🔐 Login Page
 
 - Username
 - Password
 - Login Button
 
-### 2. Dashboard
+### 📊 Dashboard
 
-Displays:
-
-- Security Score
-- Critical Findings
-- High Risk Findings
-- Total Resources
-- Severity Pie Chart
-- AWS Services Bar Chart
-- Recent Findings Table
-
-### 3. Findings
-
-Shows security issues like:
-
-- Public S3 Bucket
-- SSH Port Open
-- MFA Disabled
-- CloudTrail Disabled
-
-### 4. Reports
-
-Provides options to:
-
-- Generate PDF Report
-- Download CSV Report
-- View HTML Report
-
-### 5. Settings
-
-Allows the user to enter:
-
-- AWS Access Key
-- AWS Secret Key
-- AWS Region
-
-## ▶️ How to Run the Project
-
-1. Download or clone the repository.
-
-2. Open the project folder.
-
-3. Open `index.html` using any web browser.
-
-OR
-
-Open the folder in Visual Studio Code and use the **Live Server** extension.
-
-
-
-## 🔑 Demo Login Credentials
-
-Username:
-
-admin
-
-Password:
-
-admin123
-
-
-## 📊 Dashboard Metrics
+Displays
 
 - Security Score
 - Critical Findings
@@ -135,6 +90,67 @@ admin123
 - Total Resources
 - Pie Chart
 - Bar Chart
+- Recent Findings
+
+### ⚠️ Findings
+
+Displays security issues like
+
+- Public S3 Bucket
+- SSH Port Open
+- MFA Disabled
+- CloudTrail Disabled
+
+### 📄 Reports
+
+- Generate PDF
+- Download CSV
+- View HTML Report
+
+### ⚙️ Settings
+
+- AWS Access Key
+- AWS Secret Key
+- AWS Region
+
+---
+
+## ▶️ How to Run
+
+1. Download or Clone the repository.
+
+```bash
+git clone https://github.com/yourusername/cloud-security-auditor-frontend.git
+```
+
+2. Open the project folder.
+
+3. Open **index.html**
+
+OR
+
+Run using **VS Code Live Server**.
+
+---
+
+## 🔑 Demo Login
+
+| Username | Password |
+|----------|----------|
+| admin | admin123 |
+
+---
+
+## 📊 Dashboard Metrics
+
+- Security Score
+- Critical Findings
+- High Risk Findings
+- Total Resources
+- Severity Pie Chart
+- AWS Services Bar Chart
+
+---
 
 ## 🎨 UI Theme
 
@@ -143,82 +159,107 @@ admin123
 - White
 - Light Gray
 
-## 🔮 Future Enhancements
+---
 
-- Backend Integration using Flask
+# 📌 Project Scope
+
+The Cloud Security Auditor for AWS (Frontend) provides a responsive dashboard that simulates cloud security monitoring. The project demonstrates how AWS security information can be presented through an interactive interface.
+
+### Scope Includes
+
+- Responsive Dashboard
+- Login Interface
+- Security Findings Table
+- Reports Page
+- AWS Settings Page
+- Interactive Charts
+- Sidebar Navigation
+- AWS Inspired Design
+
+---
+
+## ⚠️ Limitations
+
+This project is a frontend prototype only.
+
+It does not connect to AWS services or perform real security scanning.
+
+All displayed data is static and intended for demonstration purposes.
+
+---
+
+## 🚀 Future Enhancements
+
+- Flask Backend
 - AWS Boto3 Integration
-- Real-time Security Scanning
-- Database Connectivity
-- PDF Report Generation
+- SQLite Database
 - User Authentication
+- Real-Time AWS Scanning
+- PDF Report Generation
 - Scan History
 - Multi-user Support
+- Security Alerts
+- AWS Security Hub Integration
+
+---
+
+# 👨‍🎓 Internship Details
+
+| Field | Details |
+|------|---------|
+| Intern ID | CITS6402 |
+| Name | Bhavani Yadlapalli |
+| Duration | 4 Weeks |
+| Project | Cloud Security Auditor for AWS |
+
+---
+
+# 💻 Code Screenshot
+
+![Code Screenshot](https://github.com/user-attachments/assets/8c6df06b-3a62-4b07-8ba4-d69ee49da2df)
+
+---
+
+# 🖥️ Output Screenshots
+
+### Login Page
+
+![Login](https://github.com/user-attachments/assets/8fb92b94-7a09-4021-acc3-338f5bcd888a)
+
+### Dashboard
+
+![Dashboard](https://github.com/user-attachments/assets/526ca3d2-b095-48d5-a482-95a8e488a85a)
+
+### Findings
+
+![Findings](https://github.com/user-attachments/assets/6390b2d0-da3f-431b-9fb9-22ad4a3f6114)
+
+### Reports
+
+![Reports](https://github.com/user-attachments/assets/ca34b856-5bb6-480f-8101-efd471e582ea)
+
+### Settings
+
+![Settings](https://github.com/user-attachments/assets/123a2816-01cd-4b26-b287-2402860ea0ff)
+
+### Final Output
+
+![Final Output](https://github.com/user-attachments/assets/6eb0c432-7af0-41e5-b47b-ca03fd6d39d8)
+
+---
 
 ## 📄 License
 
-This project is created for educational and internship purposes.
+This project is licensed under the **MIT License**.
 
-INTERN ID : CITS6402
+---
 
-FULL NAME: BHAVANI YADLAPALLI
+## ⭐ Author
 
-NO.OF WEEKS:04
+**Bhavani Yadlapalli**
 
-NAME OF PROJECT: CLOUD SECURITY AUDITOR FOR AWS
+B.Tech – Computer Science and Engineering
 
-PROJECT SCOPE : # Project Scope
+Cloud Security Auditor for AWS (Frontend)
 
-The **Cloud Security Auditor for AWS (Frontend)** is designed to provide a user-friendly interface for monitoring and visualizing cloud security information. This project focuses on creating a responsive dashboard that simulates how cloud security auditing tools present security findings and reports.
-
-The scope of the project includes:
-
-- Designing a modern and responsive user interface using **HTML5, CSS3, Bootstrap 5, and JavaScript**.
-- Developing a secure-looking login page for accessing the application.
-- Creating a dashboard to display key security metrics such as Security Score, Critical Findings, High-Risk Findings, and Total Resources.
-- Displaying security findings in a structured table with service names, issue descriptions, severity levels, and status.
-- Visualizing security data using interactive charts with **Chart.js**.
-- Providing a reports page with options to generate or download security reports (UI demonstration).
-- Creating a settings page to display AWS credential and region configuration fields.
-- Ensuring easy navigation between all pages through a responsive sidebar.
-- Providing a frontend prototype that can be extended in the future with backend technologies such as Flask, Python, AWS Boto3, and a database.
-
-## Limitations
-
-This version of the project is a **frontend-only prototype**. It does not connect to real AWS services or perform actual cloud security scans. The dashboard displays sample data for demonstration purposes only.
-
-## Future Scope
-
-The project can be enhanced by integrating:
-- Python Flask backend
-- AWS Boto3 SDK for real-time AWS scanning
-- User authentication and authorization
-- SQLite or MySQL database
-- Automatic security score calculation
-- PDF and CSV report generation
-- Scan history and audit logs
-- AWS IAM, EC2, S3, VPC, CloudTrail, and CloudWatch integration
-- Real-time alerts and notifications
-- Role-based access control for multiple users
-
-CODE SCREENSHOTS:
-<img width="677" height="336" alt="Screenshot 2026-07-15 225824" src="https://github.com/user-attachments/assets/8c6df06b-3a62-4b07-8ba4-d69ee49da2df" />
-
-OUTPUT SCREENSHOTS:
-<img width="796" height="677" alt="Screenshot 2026-07-15 224631" src="https://github.com/user-attachments/assets/8fb92b94-7a09-4021-acc3-338f5bcd888a" />
-
-<img width="1917" height="903" alt="Screenshot 2026-07-15 224833" src="https://github.com/user-attachments/assets/526ca3d2-b095-48d5-a482-95a8e488a85a" />
-
-<img width="1877" height="452" alt="Screenshot 2026-07-15 224859" src="https://github.com/user-attachments/assets/6390b2d0-da3f-431b-9fb9-22ad4a3f6114" />
-
-<img width="1892" height="863" alt="Screenshot 2026-07-15 224918" src="https://github.com/user-attachments/assets/ca34b856-5bb6-480f-8101-efd471e582ea" />
-
-<img width="1900" height="747" alt="Screenshot 2026-07-15 224953" src="https://github.com/user-attachments/assets/123a2816-01cd-4b26-b287-2402860ea0ff" />
-
-<img width="1292" height="786" alt="Screenshot 2026-07-15 225031" src="https://github.com/user-attachments/assets/6eb0c432-7af0-41e5-b47b-ca03fd6d39d8" />
-
-
-
-
-
-
-
+Internship Project – 2026
