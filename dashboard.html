@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Cloud Security Auditor Dashboard</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/dashboard.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<div class="d-flex">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+
+        <h3 class="text-center mt-3">☁ AWS Auditor</h3>
+
+        <a href="dashboard.html">🏠 Dashboard</a>
+
+        <a href="findings.html">⚠ Findings</a>
+
+        <a href="reports.html">📄 Reports</a>
+
+        <a href="settings.html">⚙ Settings</a>
+
+        <a href="index.html">🚪 Logout</a>
+
+    </div>
+
+    <!-- Main -->
+
+    <div class="main">
+
+        <h2>Cloud Security Dashboard</h2>
+
+        <hr>
+
+        <!-- Cards -->
+
+        <div class="row">
+
+            <div class="col-md-3">
+
+                <div class="card card-box">
+
+                    <h5>Security Score</h5>
+
+                    <h2>92%</h2>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <div class="card card-box">
+
+                    <h5>Critical</h5>
+
+                    <h2>3</h2>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <div class="card card-box">
+
+                    <h5>High Risk</h5>
+
+                    <h2>8</h2>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <div class="card card-box">
+
+                    <h5>Total Resources</h5>
+
+                    <h2>150</h2>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <br>
+
+        <!-- Charts -->
+
+        <div class="row">
+
+            <div class="col-md-6">
+
+                <div class="card p-3">
+
+                    <h5>Severity Distribution</h5>
+
+                    <canvas id="pieChart"></canvas>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6">
+
+                <div class="card p-3">
+
+                    <h5>AWS Services</h5>
+
+                    <canvas id="barChart"></canvas>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <br>
+
+        <!-- Table -->
+
+        <div class="card p-3">
+
+            <h4>Recent Findings</h4>
+
+            <table class="table table-bordered table-hover">
+
+                <thead class="table-dark">
+
+                <tr>
+
+                    <th>Service</th>
+
+                    <th>Issue</th>
+
+                    <th>Severity</th>
+
+                </tr>
+
+                </thead>
+
+                <tbody>
+
+                <tr>
+
+                    <td>S3</td>
+
+                    <td>Public Bucket</td>
+
+                    <td><span class="badge bg-danger">Critical</span></td>
+
+                </tr>
+
+                <tr>
+
+                    <td>EC2</td>
+
+                    <td>SSH Port Open</td>
+
+                    <td><span class="badge bg-warning text-dark">High</span></td>
+
+                </tr>
+
+                <tr>
+
+                    <td>IAM</td>
+
+                    <td>MFA Disabled</td>
+
+                    <td><span class="badge bg-info">Medium</span></td>
+
+                </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="js/charts.js"></script>
+
+</body>
+</html>
